@@ -5,6 +5,90 @@ light blue: #1c5380
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 100vh;
+  width: 100%;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: linear-gradient(to bottom, #417eb1 0%,  #316fa1 10%, #2f5c81 42%, white 42%, white 100%);
+  background-repeat: no-repeat;
+}
+main{
+  width: 1200px;
+  margin: 0 15rem;
+  padding: 15rem 15rem 2rem 15rem;
+  display: flex;
+  align-items: center;
+}
+aside{
+  width: 350px;
+  margin: 0;
+}
+#right-container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  width: 540px;
+
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button{
+  color: white;
+  font-weight: bold;
+  height: 3rem;
+  box-shadow:inset 0px -3px 7px 0px #06365f;
+  background:linear-gradient(to bottom, #5a8fbb 5%, #417aa8 100%);
+  background-color: #3985c4 ;
+  border-radius: 3px;
+  border: 1px solid #0b5799;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;  
+  font-size: 12px;
+  padding: 0 1rem;
+}
+section{
+  width: 450px;
+  padding: 1rem 3rem;
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section h2{
+  display: block;
+  width: 250px;
+  color: #06365f;
+}
+section p{
+  display: block;
+  width: 420px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+ul{
+  display: flex;
+  width: 40vw;
+  justify-content: space-around;
+}
+li{
+  color: #06365f;
+  font-size: 12px;
+  font-weight: 700;
+  list-style: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#copyright{
+  color: rgb(177, 177, 177);
+}
+#app-links{
+  margin-top: 2rem;
+}
+#app-links img{
+  cursor: pointer;
 }
